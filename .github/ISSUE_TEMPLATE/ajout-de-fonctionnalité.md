@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-Nom de la fonctionnalité :
+Thème de la fonctionnalité :
 
 Description:

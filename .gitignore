@@ -1,0 +1,9 @@
+.dll
+.exe
+.o
+node_modules/
+vendor/
+packages/
+*.log
+.sql
+*.env

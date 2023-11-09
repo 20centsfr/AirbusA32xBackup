@@ -1,0 +1,21 @@
+{
+  "name": "airbusa32x",
+  "version": "1.0.0",
+  "description": "Bienvenue dans le dépôt GitHub de notre projet de conception d'avion ! Ce projet vise à créer un avion innovant en suivant un processus de conception étape par étape. Ce README vous fournira des informations essentielles pour comprendre et contribuer au projet.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "linter",
+    "your-linter-script": "../git/hooks/pre-commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoSky7791/AirbusA32x.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoSky7791/AirbusA32x/issues"
+  },
+  "homepage": "https://github.com/RoSky7791/AirbusA32x#readme"
+}

@@ -4,8 +4,7 @@
   "description": "Bienvenue dans le dépôt GitHub de notre projet de conception d'avion ! Ce projet vise à créer un avion innovant en suivant un processus de conception étape par étape. Ce README vous fournira des informations essentielles pour comprendre et contribuer au projet.",
   "main": "index.js",
   "scripts": {
-    "lint": "linter",
-    "your-linter-script": "../git/hooks/pre-commit"
+    "lint": "linter"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-FILES=$(find .)
+# Récupérer la liste de tous les fichiers sauf scripts/script.sh
+FILES=$(find . -type f -not -path "./scripts/script.sh")
 
 if [[ -n "$FILES" ]]; then
   echo "Running pre-commit check on staged files:"

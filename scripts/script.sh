@@ -1,4 +1,6 @@
 #!/bin/bash
+set -x
+
 
 # Récupérer la liste des fichiers modifiés à partir de l'événement GitHub
 FILES=$(jq --raw-output '.pull_request.head.repo.contents_url' "$GITHUB_EVENT_PATH" | xargs -I {} curl -s -H "Authorization: Bearer $GITHUB_TOKEN" "{}" | jq --raw-output '.[].name' | grep -E '\.jsx?$' | sed "s|^|$PWD/|")

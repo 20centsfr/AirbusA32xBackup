@@ -1,3 +1,3 @@
-let not_secret = pswd
+let not_secre = pswd
 
-alert("Le super mot de passe est : " + not_secret); secret secret secret secret
+alert("Le super mot de passe est : " + not_secre);

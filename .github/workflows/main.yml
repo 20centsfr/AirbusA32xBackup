@@ -3,7 +3,7 @@ name: run-script
 on:
   pull_request:
   push:
-    branches: [develop]
+    branches: [develop, main]
 
 jobs:
   run:

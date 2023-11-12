@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES=$(git diff --name-only --diff-filter=AM $((git merge-base HEAD $GITHUB_BASE_REF || echo -n $GITHUB_BASE_REF) || echo -n HEAD))
+FILES=$(find .)
 
 if [[ -n "$FILES" ]]; then
   echo "Running pre-commit check on staged files:"

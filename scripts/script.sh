@@ -4,7 +4,7 @@
 FILES=$(find . -type f -not -path "./scripts/script.sh")
 
 if [[ -n "$FILES" ]]; then
-  echo "Running pre-commit check on staged files:"
+  echo "Running "secret" check on staged files:"
   echo "$FILES"
   echo ""
 
@@ -15,6 +15,8 @@ if [[ -n "$FILES" ]]; then
     fi
   done
 fi
+
+echo "No 'secret' keyword found. Good to go!"
 
 exit 0
 

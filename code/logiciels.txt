@@ -1,0 +1,6 @@
+Je suis en train de coder mes logiciels performants.
+
+func autopilote():
+    mon autopilote !!
+
+print ("cordialement")
